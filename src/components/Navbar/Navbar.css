@@ -1,0 +1,18 @@
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.navContainer {
+    padding: 0px 30px;
+    background-color: #990022;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}

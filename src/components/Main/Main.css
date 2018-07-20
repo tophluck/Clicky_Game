@@ -1,0 +1,16 @@
+.imageContainer {
+    float: left;
+    padding: 20px;
+    text-align: center;
+}
+
+.image {
+    width: 270px;
+    height: 270px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
